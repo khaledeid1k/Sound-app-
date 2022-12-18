@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sound App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_Albums_fragment">Albums</string>
+    <string name="hello_Songs_fragment">Songs</string>
+    <string name="tab_text_1">Quran</string>
+    <string name="tab_text_2">Alarms</string>
+    <string name="quran_name">quran_name</string>
+    <string name="this_is_song">Name of sura</string>
+    <string name="this_is_Artist">Name of </string>
+    <string name="now_playing">Now Playing</string>
+    <string name="albums">Albums</string>
+
+    <string name="name">name</string>
+    <string name="sorted_by">Sorted By</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:background="#252424">
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/card"
+    android:layout_width="170dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+   android:theme="@style/Theme.MaterialComponents.Light"
+    android:layout_height="215dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- Media -->
+    <ImageView
+        android:id="@+id/card_image_albums"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        app:srcCompat="@drawable/quran"
+        android:scaleType="centerCrop"
+        />
+        <TextView
+            android:id="@+id/card_text_albums"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/albums"
+            android:textColor="@color/smoke_black"
+            android:textStyle="bold"
+            android:maxLines="1" />
+
+
+    </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>
